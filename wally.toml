@@ -1,0 +1,10 @@
+[package]
+name = "tacheometry/roblox-studio-wakatime"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+StudioComponents = "sircfenner/studiocomponents@1.2.0"
+React = "jsdotlua/react@17.2.1"
+ReactRoblox = "jsdotlua/react-roblox@17.2.1"

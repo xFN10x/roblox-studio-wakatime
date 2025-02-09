@@ -1,0 +1,9 @@
+{
+  "name": "roblox-studio-wakatime",
+  "tree": {
+    "$path": "src",
+    "Packages": {
+      "$path": "Packages"
+    }
+  }
+}
