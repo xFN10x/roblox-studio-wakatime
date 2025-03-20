@@ -13,3 +13,32 @@ This is a plugin for automatically tracking your time spent in Roblox Studio, wi
 It is also possible to place the latest `rbxm` from the [Releases](https://github.com/tacheometry/roblox-studio-wakatime/releases) tab in your local plugins folder.
 
 ![Screenshot](./assets/plugin_screenshot.png)
+
+## Building
+
+> [!IMPORTANT]
+> Please make sure to install the required [Dependencies](./wally.toml) via the following command:
+>
+> ```
+> wally install
+> ```
+
+<br>
+
+To generate a build for _testing_, run:
+
+```
+rojo build -p "RobloxStudioWakaTime.rbxm"
+```
+
+<sub>_This will automatically install it into your **Roblox Studio** Plugins folder._</sub>
+
+<br>
+
+To manually generate a **final** build, run:
+
+```
+rojo build -o "RobloxStudioWakaTime.rbxm"
+```
+
+<sub>_This will instead just generate the file directly in **this** directory._</sub>
