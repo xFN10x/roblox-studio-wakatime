@@ -88,7 +88,7 @@ local function sendHeartbeat(plugin: Plugin, activity: StudioActivity)
 	lastSentActivity = activity
 
 	local ok, response = pcall(HttpService.RequestAsync, HttpService, {
-		Url = "https://api.wakatime.com/api/v1/users/current/heartbeats",
+		Url = "https://hackatime.hackclub.com/api/hackatime/v1",
 		Method = "POST",
 		Body = HttpService:JSONEncode(bodyToSend),
 		Headers = {
